@@ -8,6 +8,11 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  
+  boot:
+    admin:
+      client:
+        url: http://localhost:9600
 
 server:
   port: 9302
